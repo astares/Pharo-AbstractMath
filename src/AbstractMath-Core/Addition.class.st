@@ -28,15 +28,3 @@ Addition >> isCommutative [
 	
 	^true
 ]
-
-{ #category : #printing }
-Addition >> printOn: aStream [
-	"Prints the receiver on a stream"
-	
-	leftOperand printOn: aStream.
-	aStream space.
-	aStream nextPutAll: operator asString.
-	aStream space.
-	rightOperand printOn: aStream
-	
-]

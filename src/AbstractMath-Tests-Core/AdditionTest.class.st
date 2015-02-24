@@ -43,7 +43,7 @@ AdditionTest >> testValueOfAdditions [
 { #category : #tests }
 AdditionTest >> testValueOfCollections [
 
-	self assert: (Addition add: #(2) to: #(3)) value = #(5)
+	self assert: (Addition add: #(21) to: #(21)) value = #(42)
 ]
 
 { #category : #tests }
